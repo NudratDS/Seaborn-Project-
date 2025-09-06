@@ -5,3 +5,39 @@
 # Seaborn-Project-
 
 Statistical and distribution-based visualization.
+# 📊 ChatGPT Reviews Analysis with Seaborn
+
+This project explores user reviews of ChatGPT using Seaborn for data visualization. The dataset includes user scores, thumbs-up counts, timestamps, and review content.
+
+---
+
+## 📁 Dataset
+
+- **Filename**: `clean_chatgpt_reviews.csv.zip`
+- **Columns**:
+  - `userName`
+  - `content`
+  - `score`
+  - `thumbsUpCount`
+  - `at` (review timestamp)
+
+---
+
+## 🔍 Visualizations
+
+This project includes the following Seaborn charts:
+
+1. Distribution of Review Scores
+2. Thumbs Up Count Distribution
+3. Average Thumbs Up by Score
+4. Monthly Trend of Review Counts
+5. Thumbs Up Boxplot by Score
+6. Heatmap of Review Times (Day vs Hour)
+
+---
+
+## 🛠️ How to Run
+
+1. Install dependencies:
+   ```bash
+   pip install pandas seaborn matplotlib wordcloud
